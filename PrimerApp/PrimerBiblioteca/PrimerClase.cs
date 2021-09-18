@@ -11,7 +11,7 @@ namespace PrimerBiblioteca
 
         public PrimerClase(string nombreApellido,int edad,double altura)
         {
-            NombreApellido = nombreApellido;
+            NombreApellido = nombreApellido; //Asigné NombreApellido en lugar de _nombreApellido porque get y set quedarían implícitos.
             _edad = edad/2;
             _altura = altura;
         }
